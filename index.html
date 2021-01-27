@@ -9,7 +9,75 @@
 </head>
 
 <body class="antialiased font-sans bg-blueGray-800">
-
+  <div id="content" class="bg-blueGray-200">
+    <!-- Navbar -->
+    <div class="relative z-10 pt-4 pb-10 bg-gray-100">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6">
+        <nav class="relative flex items-center justify-between sm:h-10">
+          <div class="flex items-center flex-1">
+            <div class="flex items-center justify-between w-full md:w-auto">
+              <a href="#">
+                <svg class="h-8 sm:h-10 w-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4">
+                  </path>
+                </svg>
+              </a>
+              <div class="-mr-2 flex items-center md:hidden">
+                <button type="button" id="desktop_menu"
+                  class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"><svg
+                    stroke="currentColor" fill="none" viewBox="0 0 24 24" class="h-6 w-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="hidden md:flex md:space-x-10">
+            <a href="#" class="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
+              Navlink
+            </a>
+          </div>
+        </nav>
+      </div>
+      <div id="mobile_menu" class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-10"
+        style="display: none;">
+        <div class="rounded-lg shadow-md bg-white shadow-xs overflow-hidden">
+          <div class="px-5 pt-4 flex items-center justify-between">
+            <div>
+              <a href="#">
+                <svg class="h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4">
+                  </path>
+                </svg>
+              </a>
+            </div>
+            <div class="-mr-2">
+              <button type="button" id="btn_mobile_menu"
+                class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 6h16M4 12h16M4 18h16">
+                  </path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="px-2 pt-2 pb-3">
+            <a href="https://pingping.io#features" role="menuitem"
+              class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out">Navlink</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hero -->
+  </div>
+  <!--  -->
+  <script src="/public/js/index.js"></script>
 </body>
 
 </html>
