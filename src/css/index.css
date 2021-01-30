@@ -71,4 +71,106 @@
     .prose>:last-child {
         margin-bottom: 0;
     }
+
+    /*  */
+
+    .integrations-list {
+        height: 450px;
+    }
+
+
+    @media (min-width: 768px) {
+        .integrations-list {
+            height: 700px;
+        }
+    }
+
+    .integrations-list .circle-inner {
+        width: 258px;
+        height: 258px;
+        background: rgba(218, 225, 231, .5);
+        border: 1px solid #b8c2cc;
+        -webkit-box-shadow: 0 16px 60px -20px rgb(0 0 0 / 7%);
+        box-shadow: 0 16px 60px -20px rgb(0 0 0 / 7%);
+        opacity: .33;
+    }
+
+    @media (min-width: 768px) {
+        .integrations-list .circle-inner {
+            width: 488px;
+            height: 488px;
+        }
+    }
+
+    .integrations-list .logo {
+        width: 93px;
+        height: 93px;
+    }
+
+    @media (min-width: 768px) {
+        .integrations-list .logo {
+            width: 181px;
+            height: 181px;
+        }
+    }
+
+    .integrations-list .integrations-icon-1 {
+        -webkit-transform: translateY(-129px);
+        transform: translateY(-129px);
+    }
+
+    @media (min-width: 768px) {
+        .integrations-list .integrations-icon-1 {
+            -webkit-transform: translateY(-244px);
+            transform: translateY(-244px);
+        }
+    }
+
+    .integrations-list .integrations-icon-2 {
+        -webkit-transform: translate(-94px, 94px);
+        transform: translate(-94px, 94px);
+    }
+
+    @media (min-width: 768px) {
+        .integrations-list .integrations-icon-2 {
+            -webkit-transform: translate(-174px, 174px);
+            transform: translate(-174px, 174px);
+        }
+    }
+
+    .integrations-list .integrations-icon-3 {
+        -webkit-transform: translate(94px, 94px);
+        transform: translate(94px, 94px);
+    }
+
+    @media (min-width: 768px) {
+        .integrations-list .integrations-icon-3 {
+            -webkit-transform: translate(174px, 174px);
+            transform: translate(174px, 174px);
+        }
+    }
+
+    .integrations-list .integrations-icon {
+        width: 72px;
+        height: 72px;
+    }
+
+    @media (min-width: 768px) {
+        .integrations-list .integrations-icon {
+            width: 112px;
+            height: 112px;
+        }
+    }
+
+    .integrations-list .integrations-icon img {
+        max-width: 55px;
+        max-height: 55px;
+    }
+
+    @media (min-width: 768px) {
+        .integrations-list .integrations-icon img {
+            max-width: 75px;
+            max-height: 75px;
+        }
+    }
 }
