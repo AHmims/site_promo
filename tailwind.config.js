@@ -12,12 +12,28 @@ module.exports = {
     extend: {
       colors: {
         blueGray: colors.blueGray,
-        lightBlue: colors.lightBlue
+        lightBlue: colors.lightBlue,
+        custom: {
+          darkBlue: "#24519E",
+          lightBlue: "#89D6FA"
+        }
+      },
+      height: {
+        250: '250px',
+        270: '270px',
+        300: '300px',
+        350: '350px',
+        400: '400px',
+        500: '500px',
+        600: '600px'
+      },
+      width: {
+        490: '490px'
       }
     }
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms')],
 }
